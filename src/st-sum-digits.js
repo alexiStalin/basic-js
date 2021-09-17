@@ -14,7 +14,6 @@ import { NotImplementedError } from '../extensions/index.js'
  */
 export default function getSumOfDigits(n) {
    let num = n.toString()
-   // let sol = []
    while (num.length != 1) {
       let sum = 0
       for (let i = 0; i < num.length; i++) {
